@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Open Sans', Times;
+            font-weight: 700;
+        }
+
+        .welcome-section {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-color: #87CEFA;
+            overflow: hidden;
+        }
+
+        .welcome-section .content-wrap {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate3d(-50%, -50%, 0);
+        }
+
+        .welcome-section .content-wrap .fly-in-text {
+            list-style: none;
+        }
+
+        .welcome-section .content-wrap .fly-in-text li {
+            display: inline-block;
+            margin-right: 30px;
+            font-size: 5em;
+            color: #fff;
+            opacity: 1;
+            transition: all 2s ease;
+        }
+
+        .welcome-section .content-wrap .fly-in-text li:last-child {
+            margin-right: 0;
+        }
+
+        .welcome-section .content-wrap .enter-button {
+            display: block;
+            text-align: center;
+            font-size: 1em;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #adff2f;
+            opacity: 1;
+            transition: all 1s ease 2s;
+        }
+
+        .welcome-section.content-hidden .content-wrap .fly-in-text li {
+            opacity: 0;
+        }
+
+        .welcome-section.content-hidden .content-wrap .fly-in-text li:nth-child(1) {
+            transform: translate3d(-100px, 0, 0);
+        }
+
+        .welcome-section.content-hidden .content-wrap .fly-in-text li:nth-child(2) {
+            transform: translate3d(100px, 0, 0);
+        }
+
+        .welcome-section.content-hidden .content-wrap .enter-button {
+            opacity: 0;
+            transform: translate3d(0, -30px, 0);
+        }
+
+        @media (min-width: 800px) {
+            .welcome-section .content-wrap .fly-in-text li {
+                font-size: 5em;
+            }
+            .welcome-section .content-wrap .enter-button {
+                font-size: 1.5em;
+            }
+        }
+
+    </style>
+</head>
+<html>
+
+<body>
+
+
+    <div class="welcome-section content-hidden">
+        <div class="content-wrap">
+            <ul class="fly-in-text">
+                <li>Welcome to my blog!:)</li>
+
+            </ul>
+
+            <a href="#" class="enter-button">Enter</a>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+
+            var welcomeSection = $('.welcome-section'),
+                enterButton = welcomeSection.find('.enter-button');
+
+            setTimeout(function() {
+                welcomeSection.removeClass('content-hidden');
+            }, 500);
+
+            enterButton.on('click', function(e) {
+                e.preventDefault();
+                welcomeSection.addClass('content-hidden').fadeOut();
+            });
+
+
+        })();
+
+    </script>
+
+</body>
+
+</html>
+
+<html>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    /* Style the header */
+
+    .header {
+        background-color: #f1f1f1;
+        padding: 20px;
+        text-align: center;
+    }
+
+    /* Style the top navigation bar */
+
+    .topnav {
+        overflow: hidden;
+        background-color: #1e9eec;
+    }
+
+    /* Style the topnav links */
+
+    .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    /* Change color on hover */
+
+    .topnav a:hover {
+        background-color: #ddd;
+        color: blue;
+    }
+
+</style>
+
+</html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+</head>
+
+<body>
+    <img src="Online%20Blog.png" width="1100" height="220">
+
+</body>
+
+
+</html>
+
+<body>
+
+    <div class="topnav">
+        <a href=English.html>
+          
+            <font face="Arial Rounded MT Bold">Learning English is Important</font>
+        </a>
+        <a href="Retail.html">
+            <font face="Arial Rounded MT Bold">Cashierless Convenient Store</font>
+        </a>
+        <a href="Tech.html">
+            <font face="Arial Rounded MT Bold">AI</font>
+        </a>
+         <a href="Latin.html">
+            <font face="Arial Rounded MT Bold">Latin as a Second Language</font>
+        </a>
+<a href="Series.html">
+    <font face="Arial Rounded MT Bold">13 Reasons Why</font>
+</a>
+    </div>
+
+    <div style="text-align:center">
+
+
+        <h2><u><centre> About Me </centre>
+            </u>
+        </h2>
+    </div>
+
+    <style>
+        p {
+            text-indent: 50px;
+        }
+
+    </style>
+    <p style="color:#1589FF">
+        <font size=8>G</font>reetings! Jennifer at your service! Welcome again to my blog! Let me tell you a bit of myself.
+
+        <br>
+        <br>
+
+        <p style="color:#1589FF">I was brought up by austere parents where I was usually the quietest person in the house. Although this was challenging, I did become more disciplined and diligent as a result. </p>
+        <br>
+
+        <h2>
+            <p>Study abroad</p>
+        </h2>
+        <p style="color:#1589FF">When I was about twelve years old, I had the privilege of going to study abroad<img src="https://www.emojibase.com/resources/img/emojis/apple/x2708.png.pagespeed.ic.jPRMSFZUGH.png" width=18 height=12><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png" Width=18 height=12>. Being apart from my parents, I could become more independent but it would also be nerve-racking at the same time as I had to get used to a completely new environment. Also, I had to face lots of challenges and overcome many difficulties when I was in England. This experience made me more open-minded and provided me with a much broader knowledge base. </p>
+        <br>
+        <font size=5>
+            <div style="text-align:center">. . .</div>
+        </font>
+        <br>
+        <p style="color:#1589FF"> There were plenty of sports that involved team working and leadership. Although initially, I was not a good leader, I improved my communication skills in order to motivate my teammates. The education system in England is quite different in terms of combining academia and activities which were supervised by teachers, whereas in Hong Kong we often concentrate purely on the work. This helped me both in terms of dealing with the stress of work and in learning to appreciate life and learning outside of textbooks. </p>
+        <br>
+
+        <h2>
+            <p>CCF</p>
+        </h2>
+        <p style="color:#1589FF">To give you a quick exmaple, we had our CCF(Combined Cadet Force) every Wednesday which lasted for two hours. It was enjoyable and was worth learning something that I did not know before. Also, you got to learn about camping skills including setting up tents. Confidence course was the most challenging activity of all the others. If you do not know what confidence course is, it is basically a series of physical training activities that each person or team must accomplish within the designated time limit. They were physically seriously demanding but I still enjoyed them most of the time. It was worth a try if you are not sure about your physical abilities. Rifle shooting was the most entertaining part as I quite like guns and rifles. We got a chance to learn the different part of a rifle. If you were to ask me now, I would have to admit that I have forgotten all about rifle parts except for the safety and the magazine which are the only things I now still remember. Although drillings were mandatory, I did not find them boring at all. Field day was exciting in terms of sailing and kayaking though I did not even know how to kayak! Even so, I learnt something from this first experience and surprisingly I had another chance to do it again when I went to Thailand for my coursework. Sailing can be never racking if you have no previous experience about it but I was auspicious to have a great teacher guiding me through the way. Therefore, I was relieved, to say the least, to have her watchful eyes help me throughout the way. </p>
+
+
+        <div style="text-align:center"> <img src="http://fluencycontent-schoolwebsite.netdna-ssl.com/FileCluster/Hurstpierpoint/MainFolder/3-Senior-Sixth-Form/Outdoor-Education/CCF/ccf-header-01.jpg" width=650 height=300></div>
+
+        <br>
+
+        <h2>
+            <p>Spanish as a Second Language</p>
+        </h2>
+        <p style="color:#1589FF"> Learning an extra language such as Spanish <img src="https://www.all-languages.org.uk/wp-content/uploads/2014/08/Spain.jpg" width=20 height=18>has many benefits, not least in giving me an opportunity to communicate when I travelled to Spain during my language trip in year 10. Learning Spanish is quite challenging in the way that I had to learn plenty of vocabulary in order to speak fluently. Despite that, I persisted in learning the language to motivate myself to be a good speaker. </p>
+
+        <div style="text-align:center"><img src="http://lefkadatimebank.gr/wp-content/uploads/2015/04/Keep-calm.png" width=200 height=300></div>
+        <br>
+        <p style="color:#1589FF">Besides, learning a new instrument was another challenging activity. My music teacher thought I knew how to play piano, so he told me to learn the organ as well. There was a day where I was asked to play the organ in the school chapel after the service. It gave me a good experience to be playing in such a significant place. </p>
+        <br>
+
+        <h2>
+            <p>Life at Island School</p>
+        </h2>
+        <p style="color:#1589FF"> After coming back to Hong Kong, I went to an international school which was taught in a different style. Over the two years, I had been doing IB and BTEC at the same time during the sixth form. I found it relatively easy to achieve good results by doing course work rather than taking exams.</p>
+        <br>
+        <font size=5>
+            <div style="text-align:center">. . .</div>
+        </font>
+        <br>
+
+        <h2>
+            <p>University Life</p>
+        </h2>
+        <p style="color:#1589FF">During the univeristy life at Hang Seng Management College, I face a myriad of academic challenges which I continuously seek help from my teachers. For me, I am not a person who is good at taking exams. I usually find it hard to answer questions that require more thinking. Still, I keep fighting till I overcome the issue I am having at the moment. At the same time, I meet lots of people coming from different backgrounds and countries. Most of them are kind and I am happy to work with them. During these three years time, I hope I can pass all the modules with all my abilities.</p>
+        <br>
+        <p style="color:#1589FF">So, this is pretty much about me. Enjoy reading the rest of my blogs. &#x1F604</p>
+
+</body>
+
+</html>
